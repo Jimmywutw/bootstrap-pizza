@@ -1,0 +1,22 @@
+header{
+  background-image: url(../images/Lucianos-Pizzeria-Welland-Pizza4.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+}
+a{
+  color:white;
+  }
+a:hover{
+    color:#ECECEB;
+    text-decoration: none;
+ }
+#title{
+  position:relative;
+  top:90px;
+  
+}
+#footlogo{
+  background-size: cover;
+  background-position: center center;
+}
