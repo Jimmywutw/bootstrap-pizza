@@ -12,8 +12,8 @@ a:hover{
     text-decoration: none;
  }
 #title{
-  position:relative;
-  top:90px;
+  position:absolute;
+  top:45%;
   
 }
 #footlogo{
