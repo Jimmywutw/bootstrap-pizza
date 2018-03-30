@@ -169,13 +169,13 @@
     </div>
     <div class="col-md-6 ">
       <h3 class="pb-3">請輸入訂位資訊</h3>
-      <form action="">
-        姓名： <input class="mb-2 " type="text" name="name"><br>
-        電話： <input class="mb-2 "type="text" phone="phone"><br>
-        信箱： <input class="mb-2 "type="text" email="email"><br>
-        備註： <input class="mb-4 "type="text" command="command"><br>
+      <form method="post" action="index.html">
+        姓名： <input class="mb-2" type="text" name="name" required><br>
+        電話： <input class="mb-2" type="text" phone="phone" required><br>
+        信箱： <input class="mb-2" type="email" email="email" required><br>
+        備註： <input class="mb-4" type="text" command="command" required><br>
         <p>是否需要素食</p>
-              <input type="radio" yes="yes">是</input>
+      <input type="radio" yes="yes">是</input>
       <input type="radio" no="no">否</input><br>
         <div style="float:right"> <a href="#" class="btn btn-outline-danger">取消</a>
         <a href="#" class="btn btn-outline-info">提交</a>
